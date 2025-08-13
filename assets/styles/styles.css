@@ -12,3 +12,26 @@
   height: 25rem;
   background-color: rgb(204, 199, 214);
 }
+
+.card1{
+border: solid black ;
+
+}
+.card-sticky{
+  background-color: rgb(204, 199, 214);
+  transform: rotate(-2.5deg);
+  position: sticky;
+  top: 0;
+}
+.card-sticky:nth-child(2){
+  margin-top: 2.3rem;
+  transform: rotate(2.5deg);
+}
+.card-sticky:nth-child(3){
+  margin-top: 2.3rem;
+  transform: rotate(-2.5deg);
+}
+.card-sticky:nth-child(4){
+  margin-top: 2.3rem;
+  transform: rotate(2.5deg);
+}
